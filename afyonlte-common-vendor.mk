@@ -47,8 +47,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/afyonlte-common/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/samsung/afyonlte-common/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/samsung/afyonlte-common/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
-    vendor/samsung/afyonlte-common/proprietary/vendor/lib/hw/camera.vendor.msm8226.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.msm8226.so \
-    vendor/samsung/afyonlte-common/proprietary/vendor/lib/hw/sensors.vendor.msm8226.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.vendor.msm8226.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libAfSingle.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAfSingle.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libTsAe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTsAe.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libTsAf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTsAf.so \
@@ -165,4 +163,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libscveT2T_skel.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcbassboost.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcreverb.so \
-    vendor/samsung/afyonlte-common/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so
+    vendor/samsung/afyonlte-common/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so \
+    vendor/samsung/afyonlte-common/proprietary/vendor/lib/hw/sensors.vendor.msm8226.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.vendor.msm8226.so 
+
+
+#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/hw/sensors.msm8226.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.msm8226.so
+#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/hw/camera.msm8226.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8226.so \ 
+#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/hw/camera.vendor.msm8226.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.msm8226.so \
+
