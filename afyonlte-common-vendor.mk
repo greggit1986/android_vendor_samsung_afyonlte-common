@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/afyonlte-common/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/samsung/afyonlte-common/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/samsung/afyonlte-common/proprietary/vendor/bin/ks:system/vendor/bin/ks \
-    vendor/samsung/afyonlte-common/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/samsung/afyonlte-common/proprietary/vendor/bin/mpdecision:system/vendor/bin/mpdecision \
     vendor/samsung/afyonlte-common/proprietary/vendor/bin/qcks:system/vendor/bin/qcks \
     vendor/samsung/afyonlte-common/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
@@ -45,10 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/afyonlte-common/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/samsung/afyonlte-common/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/samsung/afyonlte-common/proprietary/vendor/etc/sec_config:system/vendor/etc/sec_config \
-    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libAfSingle.so:system/vendor/lib/libAfSingle.so \
-    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libTsAe.so:system/vendor/lib/libTsAe.so \
-    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libTsAf.so:system/vendor/lib/libTsAf.so \
-    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libTs_J_Accm.so:system/vendor/lib/libTs_J_Accm.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libarcsoft_flawlessface.so:system/vendor/lib/libarcsoft_flawlessface.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libarcsoft_night_shot.so:system/vendor/lib/libarcsoft_night_shot.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libarcsoft_panorama_burstcapture.so:system/vendor/lib/libarcsoft_panorama_burstcapture.so \
@@ -57,17 +52,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libarcsoft_skin_soften.so:system/vendor/lib/libarcsoft_skin_soften.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libatparser.so:system/vendor/lib/libatparser.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libchromatix_s5k6a3yx_smart_stay.so:system/vendor/lib/libchromatix_s5k6a3yx_smart_stay.so \
-    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libchromatix_s5k6a3yx_vt.so:system/vendor/lib/libchromatix_s5k6a3yx_vt.so \
-    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libchromatix_s5k6a3yx_vt_hd.so:system/vendor/lib/libchromatix_s5k6a3yx_vt_hd.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libcordon.so:system/vendor/lib/libcordon.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libcsd-client.so:system/vendor/lib/libcsd-client.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libfactoryutil.so:system/vendor/lib/libfactoryutil.so \
     vendor/samsung/afyonlte-common/proprietary/lib/libfmjni.so:system/lib/libfmjni.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
-    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmcamera_cac.so:system/vendor/lib/libmmcamera_cac.so \
-    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmcamera_cac2_lib.so:system/vendor/lib/libmmcamera_cac2_lib.so \
-    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libomission_avoidance.so:system/vendor/lib/libomission_avoidance.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libyasalgo.so:system/vendor/lib/libyasalgo.so \
@@ -121,12 +111,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmcamera_image_stab.so:system/vendor/lib/libmmcamera_image_stab.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
-    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmcamera_s5k6a3yx.so:system/vendor/lib/libmmcamera_s5k6a3yx.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmcamera_s5k6a3yx.so:system/vendor/lib/libmmcamera_s5k6a3yx.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
-    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
@@ -173,4 +161,24 @@ PRODUCT_PACKAGES += \
 #PRODUCT_COPY_FILES += \
 #    vendor/samsung/afyonlte-common/proprietary/vendor/lib/hw/camera.vendor.msm8226.so:system/vendor/lib/hw/camera.vendor.msm8226.so \
 #    vendor/samsung/afyonlte-common/proprietary/vendor/lib/hw/sensors.vendor.msm8226.so:system/vendor/lib/hw/sensors.vendor.msm8226.so \
+
+#####################NUKE BELOW IF BUILDS START FAILING #######################################
+#JJReplaced with stockblobs-camera
+#PRODUCT_COPY_FILES += \
+#    vendor/samsung/afyonlte-common/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
+#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libTsAe.so:system/vendor/lib/libTsAe.so \
+#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libTsAf.so:system/vendor/lib/libTsAf.so \
+#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libTs_J_Accm.so:system/vendor/lib/libTs_J_Accm.so \
+#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libAfSingle.so:system/vendor/lib/libAfSingle.so \
+#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libchromatix_s5k6a3yx_vt_hd.so:system/vendor/lib/libchromatix_s5k6a3yx_vt_hd.so \
+#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libchromatix_s5k6a3yx_vt.so:system/vendor/lib/libchromatix_s5k6a3yx_vt.so \
+#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmcamera_cac.so:system/vendor/lib/libmmcamera_cac.so \
+#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmcamera_cac2_lib.so:system/vendor/lib/libmmcamera_cac2_lib.so \
+#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
+#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
+#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
+
+
+
+
 
