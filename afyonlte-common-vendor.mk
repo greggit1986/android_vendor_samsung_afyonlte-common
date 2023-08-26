@@ -70,10 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbrtac.so \
-    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libactuator_ak7345_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7345_camcorder.so \
-    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libactuator_ak7345_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7345_camera.so \
-    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libactuator_dw9804_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9804_camcorder.so \
-    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libactuator_dw9804_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9804_camera.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libadiertac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadiertac.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
@@ -184,5 +180,15 @@ PRODUCT_COPY_FILES += \
 #PRODUCT_COPY_FILES += \
 #    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_interface.so \
 #    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg_interface.so \
+
+
+#JJReplaced with stockblobs-camera-breaks camera
+PRODUCT_COPY_FILES += \
+    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libactuator_ak7345_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7345_camcorder.so \
+    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libactuator_ak7345_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7345_camera.so
+
+PRODUCT_COPY_FILES += \
+    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libactuator_dw9804_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9804_camcorder.so \
+   vendor/samsung/afyonlte-common/proprietary/vendor/lib/libactuator_dw9804_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9804_camera.so \
 
 
