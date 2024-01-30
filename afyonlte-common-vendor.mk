@@ -114,9 +114,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcreverb.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so
 
-PRODUCT_COPY_FILES += \
-     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qcril-hook-oem.so
-
 
 ###############JJReplaced with stockblobs-camera########################
 PRODUCT_COPY_FILES += \
@@ -149,9 +146,13 @@ PRODUCT_COPY_FILES += \
 #    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmcamera_image_stab.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_image_stab.so \
 #    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmcamera_imglib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib.so \
 
-########################################################################
+###############JJReplaced with stockblobs-ril########################
 PRODUCT_COPY_FILES += \
     vendor/samsung/afyonlte-common/proprietary/vendor/bin/qmuxd:$(TARGET_COPY_OUT_VENDOR)/bin/qmuxd
 #Replacement-To make it boot-Stock crashes after lineage animation
 #PRODUCT_COPY_FILES += \
 #    vendor/samsung/afyonlte-common/proprietary/lin17/qmuxd:$(TARGET_COPY_OUT_VENDOR)/bin/qmuxd
+
+###############JJReplaced with stockblobs-ril########################
+#PRODUCT_COPY_FILES += \
+#     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qcril-hook-oem.so
