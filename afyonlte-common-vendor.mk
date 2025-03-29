@@ -116,8 +116,8 @@ PRODUCT_COPY_FILES += \
 
 
 ###############JJReplaced with stockblobs-camera########################
-PRODUCT_COPY_FILES += \
-    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_interface.so
+#PRODUCT_COPY_FILES += \
+#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_interface.so
 
 #    vendor/samsung/afyonlte-common/proprietary/vendor/lib/hw/camera.vendor.msm8226.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.msm8226.so \
 #    vendor/samsung/afyonlte-common/proprietary/vendor/lib/hw/sensors.vendor.msm8226.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.vendor.msm8226.so \
