@@ -139,49 +139,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libchromatix_s5k6a3yx_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k6a3yx_default_video.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmcamera_s5k6a3yx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k6a3yx.so
 
-
-#JJReplaced with stockblobs-sensors
-#PRODUCT_COPY_FILES += \
-#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/hw/sensors.vendor.msm8226.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.vendor.msm8226.so \
-
-
-#JJReplaced with stockblobs-camera
-#PRODUCT_COPY_FILES += \
-#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/hw/camera.vendor.msm8226.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.msm8226.so \
-
-#JJReplaced with stockblobs-camera-new
-#PRODUCT_COPY_FILES += \
-#    vendor/samsung/afyonlte-common/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
-#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libTsAe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTsAe.so \
-#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libTsAf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTsAf.so \
-#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libAfSingle.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAfSingle.so \
-#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libTs_J_Accm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTs_J_Accm.so \
-#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libchromatix_s5k6a3yx_vt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k6a3yx_vt.so \
-#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libchromatix_s5k6a3yx_vt_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k6a3yx_vt_hd.so \
-#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmcamera_cac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_cac.so \
-#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmcamera_cac2_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_cac2_lib.so \
-#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_wavelet_lib.so \
-#    vendor/samsung/afyonlte-common/proprietary/cameradata/datapattern_420sp.yuv:$(TARGET_COPY_OUT_SYSTEM)/cameradata/datapattern_420sp.yuv \
-#    vendor/samsung/afyonlte-common/proprietary/cameradata/datapattern_front_420sp.yuv:$(TARGET_COPY_OUT_SYSTEM)/cameradata/datapattern_front_420sp.yuv \
-#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-color-convertor.so \
-#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmcamera2_c2d_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_c2d_module.so \
-#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmcamera2_cpp_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_cpp_module.so \
-#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_pproc_modules.so \
-#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmcamera2_vpe_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_vpe_module.so \
-#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmcamera2_wnr_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_wnr_module.so \
-#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc.so \
-#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hdr_gb_lib.so \
-#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmcamera_image_stab.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_image_stab.so \
-#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmcamera_imglib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib.so \
-
-
-
-#JJReplaced with stockblobs-camera-old
-#PRODUCT_COPY_FILES += \
-#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_interface.so \
-#    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg_interface.so \
-
-
 #JJReplaced with stockblobs-camera-breaks camera
 PRODUCT_COPY_FILES += \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libactuator_ak7345_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7345_camcorder.so \
@@ -189,6 +146,4 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libactuator_dw9804_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9804_camcorder.so \
-   vendor/samsung/afyonlte-common/proprietary/vendor/lib/libactuator_dw9804_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9804_camera.so \
-
-
+   vendor/samsung/afyonlte-common/proprietary/vendor/lib/libactuator_dw9804_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9804_camera.so
