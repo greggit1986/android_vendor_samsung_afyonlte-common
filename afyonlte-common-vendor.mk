@@ -54,25 +54,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbtnv.so \
-    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libchromatix_s5k6a3yx_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k6a3yx_common.so \
-    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libchromatix_s5k6a3yx_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k6a3yx_default_video.so \
-    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libchromatix_s5k6a3yx_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k6a3yx_preview.so \
-    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libchromatix_s5k6a3yx_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k6a3yx_snapshot.so \
-    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libchromatix_s5k6a3yx_video_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k6a3yx_video_hd.so \
-    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libchromatix_s5k6a3yx_zsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k6a3yx_zsl.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libdrmdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmdiag.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libdrmfs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmfs.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libdrmtime.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmtime.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsi_netctrl.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libfastcvadsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvadsp_stub.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvopt.so \
-    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
-    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so \
-    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmcamera_s5k6a3yx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k6a3yx.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmipl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmipl.so \
-    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal.so \
-    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libmmqjpeg_codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpeg_codec.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libqc-opt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc-opt.so \
@@ -80,8 +69,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libqmi_cci.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_cci.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libqmi_client_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_client_helper.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
-    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libqomx_jpegdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegdec.so \
-    vendor/samsung/afyonlte-common/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd-client.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpmb.so \
     vendor/samsung/afyonlte-common/proprietary/vendor/lib/libscve.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscve.so \
