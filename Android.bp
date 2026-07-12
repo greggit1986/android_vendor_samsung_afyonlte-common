@@ -5,3 +5,14 @@
 soong_namespace {
 }
 
+cc_library_shared {
+    name: "libshim_qmi",
+    srcs: ["shims/qmi_shim.cpp"],
+    vendor: true,
+    shared_libs: [
+        "liblog",
+        "libutils",
+        "libcutils",
+    ],
+    vendor: true, 
+}
